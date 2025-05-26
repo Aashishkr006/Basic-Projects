@@ -68,7 +68,6 @@ function displayMessage(message) {
 function endGame() {
     userInput.disabled = true;
     submit.disabled = true;
-    
 
     const newBtn = document.createElement('button');
     newBtn.textContent = 'Play Again';
